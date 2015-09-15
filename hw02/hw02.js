@@ -10,28 +10,19 @@ for(var i in button) {
     b.pinMode(button[i], b.INPUT);
 }
 setInterval(check,100);
-setInterval(check1,100);
-setInterval(check2,100);
-setInterval(check3,100);
+
 function check(){
 b.digitalRead('P9_12', checkButton);
-}
-function check1(){
 b.digitalRead('P9_14', checkButton1);
-}
-function check2(){
+b.digitalRead('P9_18', checkButton3);
 b.digitalRead('P9_16', checkButton2);
 }
-function check3(){
-b.digitalRead('P9_18', checkButton3);
-}
+
 function checkButton(x) {
   if(x.value == 1){
    
      b.digitalWrite('P9_11', b.HIGH);
-     //delay(500);
-      //b.digitalWrite('P9_11', b.LOW);
-   
+    
   }
   else{
     b.digitalWrite('P9_11', b.LOW);
@@ -64,8 +55,6 @@ function checkButton3(x) {
   if(x.value == 1){
    
      b.digitalWrite('P9_17', b.HIGH);
-    // delay(500);
-    
   }
   else{
     b.digitalWrite('P9_17', b.LOW);
