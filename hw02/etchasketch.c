@@ -6,8 +6,10 @@
 /* Function to print screen to terminal */
 void print_screen(char screen[MAXX][MAXY]){
 	int i,	j;
-	for(i =0; i < MAXX; i++){
-		for(j = 0; j < MAXY; j++){
+	for(i =0; i < MAXX; i++)
+	{
+		for(j = 0; j < MAXY; j++)
+		{
 			if(screen[i][j]=='x')
 				printf("x");
 			else	printf(" ");
