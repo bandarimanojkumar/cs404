@@ -1,7 +1,14 @@
-Prof. Yoder comments
-Please use a memo format as stated in the lab description.
-Did you do only one variation?
-
-========================
-
-this is code for controlling two leds using switch
+                                                                                                      Date:16/09/2015
+  To   :Mark Yoder
+  From :Manoj Kumar
+        B13208
+  Subject:lab02
+  Lab Group:Manoj Kumar and Sadwith Gogula
+  
+          Lab is about controlling blinking of a led using switch
+          
+          file input1.js consists of code for blinking 2 leds when switch is pressed
+          file input2.js consists of code for blinking an led 10 times when a switch is pressed
+          file input3.js consists of code for blinking an led when a switch is pressed and stoping its blinking when another 
+                switch is pressed
+  
