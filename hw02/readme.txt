@@ -6,4 +6,4 @@ Prof. Yoder
 I see you LED code, but I don't isee the pushbutton controlled etch-a-sketch.
 
 Manoj
-I updated the homework please check again
+I updated the homework so please check again
