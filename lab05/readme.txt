@@ -3,7 +3,7 @@
  To   :Mark Yoder
   From :Manoj Kumar
         B13208
-  Subject:lab05
+  Subject:lab05 (ultrasonic sensor hc-sr04)
   Lab Group:Manoj Kumar and Sadwith Gogula
 
 This lab is about using i2c to connect ultrasonic sensor(hc-sr04)to beaglebone
