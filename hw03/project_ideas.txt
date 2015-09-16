@@ -1,0 +1,6 @@
+1) Smart home energy managment and automation system using beagle bone
+      link:http://www.instructables.com/id/Smart-home-energy-management-system-SHEMMS/
+      
+2) Accident detection and messaging system using gps and gsm
+
+3)Intruder alerting system
