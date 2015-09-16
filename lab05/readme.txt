@@ -8,4 +8,4 @@
 
 This lab is about using i2c to connect ultrasonic sensor(hc-sr04)to beaglebone
 
-hc-sr04-ultraSonic.js contains code for using ultrasonic sensor to sense distance it prints in cm.
+hc-sr04-ultraSonic.js contains code for using ultrasonic sensor to sense obstacle and  print distance  in cm.
