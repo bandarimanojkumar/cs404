@@ -1,9 +1,12 @@
-code for controlling four leds with four switches
-code for etch a sketch
+Date:9/10/2015
+ 
+ To   :Mark Yoder
+  From :Manoj Kumar
+        B13208
+  Subject:hw02
 
+toggle_4leds.js:
+            code for controlling four leds with four switches
+Etch-a-sketch.js:
+            code for etch a sketch
 
-Prof. Yoder
-I see you LED code, but I don't isee the pushbutton controlled etch-a-sketch.
-
-Manoj
-I updated the homework so please check again
