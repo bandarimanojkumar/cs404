@@ -3,10 +3,9 @@
   From :Manoj Kumar
         B13208
   Subject:lab02
+  Lab Group:Manoj Kumar and Sadwith Gogula
   
-        Lab is about controlling blinking of a led using switch
-	we installed fritzing to create wiring diagrams
-	we Read the switches and flash the LEDs from the command line
+           Lab is about controlling blinking of a led using switch
           
           file input2.js consists of code for blinking 2 leds when switch is pressed
           file input3.js consists of code for blinking an led 10 times when a switch is pressed
