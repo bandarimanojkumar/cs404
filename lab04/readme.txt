@@ -1,9 +1,4 @@
-#Comment from Mark A. Yoder
-# Your code looks like mine, no changes were made.
-# The lab required a switch to be attached and 'something different'.
-# Grade 10/25
-
- 														Date:16/09/2015
+				Date:13/10/2015
  
  To   :Mark Yoder
   From :Manoj Kumar
