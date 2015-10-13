@@ -24,48 +24,44 @@ b.i2cOpen(port, matrix);
 b.i2cWriteByte(port,  0x21); // Start oscillator (p10)
 b.i2cWriteByte(port,  0x81); // Disp on, blink off (p11)
 b.i2cWriteByte(port,  0xe7); // Full brightness (page 15)
+setInterval(check,100);
 
-var inputPin = "P9_36";
-var brightness = [0xe0, 0xe1, 0xe2, 0xe3, 0xe4, 0xe5, 0xe6, 0xe7];
-loop();
-
-function loop() {
-    var value = b.analogRead(inputPin);
-    b.i2cWriteByte(port,  brightness[value*10]);
-    setTimeout(loop, 1);
+function check(){
+b.digitalRead('P8_19', checkButton);
 }
 
+function checkButton(x) {
+  if(x.value == 1){
+   doFrown();
+  }
+  else{
+    b.digitalWrite('P8_13', b.LOW);
+     b.digitalWrite('P9_16', b.LOW);
+  }
+}
 doFrown();
 function doFrown() {
 	b.i2cWriteBytes(port, 0x00, frown);
+	setTimeout(doNeutral, 1*time);
 }
 
-setTimeout(doNeutral, 1*time);
+
 function doNeutral() {
 	b.i2cWriteBytes(port, 0x00, neutral);
+	setTimeout(doSmile, 2*time);
 }
 
-setTimeout(doSmile, 2*time);
+
 function doSmile() {
 	b.i2cWriteBytes(port, 0x00, smile);
 }
 
-// Fade the display
-setTimeout(doFadeDown, 3*time);
-var fade = 0xef;
-function doFadeDown() {
-    b.i2cWriteByte(port,  fade);
-	fade--;
-	if(fade >= 0xe0) {
-		setTimeout(doFadeDown, time/10);
-	} else {
-		setTimeout(doFadeUp);
-	}
+function doreverseFrown() {
+	b.i2cWriteBytes(port, 0x00, reverseFrown);
+	setTimeout(doFrown, 1*time);
 }
-function doFadeUp() {
-    b.i2cWriteByte(port,  fade);
-	fade++;
-	if(fade <= 0xef) {
-		setTimeout(doFadeUp, time/10);
-	}
+
+// Fade the display
+
+
 }

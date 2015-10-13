@@ -24,7 +24,6 @@ b.i2cOpen(port, matrix);
 b.i2cWriteByte(port,  0x21); // Start oscillator (p10)
 b.i2cWriteByte(port,  0x81); // Disp on, blink off (p11)
 b.i2cWriteByte(port,  0xe7); // Full brightness (page 15)
-
 var inputPin = "P9_36";
 var brightness = [0xe0, 0xe1, 0xe2, 0xe3, 0xe4, 0xe5, 0xe6, 0xe7];
 loop();
