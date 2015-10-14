@@ -65,7 +65,7 @@ int main(int argc, char *argv[]){
 
 	*gpio_oe_addr0 &= GPIO_03;
 	*gpio_oe_addr0 &= ~USR0;
-	*gpio_oe_addr1 &= GPIO_40;
+	*gpio_oe_addr1 &= GPIO_45;
 	*gpio_oe_addr1 &= ~USR3;
 
 	while(keepgoing) {
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]){
 		} else {
 			*gpio_cleardataout_addr0 = USR0;
 		}
-		if(*gpio_datain_addr1 & GPIO_40) {
+		if(*gpio_datain_addr1 & GPIO_45) {
 			*gpio_setdataout_addr1 = USR3;
 		} else {
 			*gpio_cleardataout_addr1 = USR3;
