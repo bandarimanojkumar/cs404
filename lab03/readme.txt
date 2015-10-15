@@ -7,7 +7,7 @@
   Lab Group:Manoj Kumar and Sadwith Gogula
 
 slider.js
-		code for reading an analog voltage from a variable resistor.
+		code for reading an analog voltage from a variable resistor and control brightness of led using that value.
 analog.js 
 		code for controlling  brightness of  LEDs using PWM.
 
