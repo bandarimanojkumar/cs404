@@ -1,2 +1,2 @@
-https://docs.google.com/document/d/1S7nzPpqIyCpMTOwmTfFqsl3T7tgDmvP000zGlqw2I9w/pub
+https://docs.google.com/document/d/1c3Kf7tLb5J1jYSadnZmd6u2e_w3iZwJdXVt-4jFlqY0/edit?usp=sharing
 link to my project proposal
