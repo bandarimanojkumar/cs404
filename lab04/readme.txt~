@@ -15,5 +15,3 @@ test.js
 	        contains code for etch a sketch on ledmatrix controlled using joystick
 x.js
 		contains code to play smile,neutral,frown,reversefrown faces when switch is pressed
-mat_switch.js
-		contains code to display various faces when a switch is pressed
