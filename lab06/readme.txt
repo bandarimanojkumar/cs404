@@ -11,3 +11,6 @@ joystick.js
 		contains code for printing positing of jostick on console taking centre as 50,50
 brightness.js
 		contains code to control brightness of led using joystick
+		
+string.js
+		contains code to move through string hello k using joystick
