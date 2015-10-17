@@ -20,3 +20,4 @@ hc-sr04-ultraSonic.js contains code for using ultrasonic sensor to sense obstacl
 			           13						14.7						
 			           15						17.1						
 			          
+we used proximity sensor to do a variation
