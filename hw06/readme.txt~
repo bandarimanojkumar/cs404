@@ -1,0 +1,7 @@
+Date:2/11/2015
+ 
+ To   :Mark Yoder
+  From :Manoj Kumar
+        B13208
+Subject:hw06
+i followed the steps in derek molleys to configure P9_42 to be in input pin, with a pull-up resistor by using a device tree overlay
